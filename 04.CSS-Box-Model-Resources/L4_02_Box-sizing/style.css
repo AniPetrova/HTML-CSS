@@ -1,0 +1,17 @@
+section {
+    box-sizing: content-box;
+    width: 250px;
+    height: 250px;
+    border-style: dotted;
+    border-color: rgb(23, 194, 46);
+    text-align: center;
+}
+
+p {
+    box-sizing: border-box;
+    width: 100%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: blue;
+    padding: 20px 20px 20px 20px;
+}

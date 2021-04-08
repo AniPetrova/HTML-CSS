@@ -1,0 +1,10 @@
+p {
+    box-sizing: content-box;
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(64, 224, 208);
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+}
