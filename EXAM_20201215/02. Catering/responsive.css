@@ -1,0 +1,19 @@
+
+@media screen and (max-width: 600px) {
+    body > section > article > article,
+    #about > article.w3-col.m6.w3-padding-large.w3-hide-small {
+      display: none;
+    }
+  
+    
+    #menu > article:nth-child(1),
+    #about > article:nth-child(2),
+    #menu > article:nth-child(2) {
+      width: unset;
+    }
+  
+    #menu {
+      display: flex;
+      flex-direction: column;
+    }
+  }

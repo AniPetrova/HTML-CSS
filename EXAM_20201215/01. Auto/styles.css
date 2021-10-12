@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import 'https://use.fontawesome.com/releases/v5.15.1/css/all.css';
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Poppins;
+}
+
+.auto-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  max-width: 1400px;
+}
+
+.auto-info,
+.auto-image {
+  flex-basis: 47%;
+}
+
+.auto-info .details {
+  margin-bottom: 30px;
+}
+
+.details .title {
+  font-family: Montserrat;
+}
+
+.auto-info .benefits .list {
+  padding: 0;
+}
+
+.benefits .list li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.benefits .list li .icon-container {
+  width: 50px;
+}
+
+.benefits .list li .icon-container img {
+  width: 100%;
+}
+
+.benefits .list li .text p {
+  margin: 0 0 0 10px;
+}
+
+.benefits .list li .text p:nth-child(1) {
+  font-weight: 600;
+}
+
+.auto-image img {
+  width: 100%; /* to be 'responsive' */
+}
