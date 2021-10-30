@@ -1,0 +1,34 @@
+@media all and (max-width: 600px) {
+    
+    .navbar-expand-lg {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .collapse navbar-collapse, .container-fluid hero {
+        display: none;
+    }
+    .navbar-brand >img {
+       margin-left: 20px;
+    }
+    .hero > img {
+        display: none;
+    }
+
+    h1, h2, h5, p {
+        text-align: center;
+    }
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .row, .contact-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
