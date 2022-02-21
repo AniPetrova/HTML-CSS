@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&family=Parisienne&display=swap");
+body * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-style: italic;
+  font-stretch: narrower;
+  color: white;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-1,
+.page-2,
+.page-3,
+.page-4 {
+  background-image:
+    url("./images/petya-back-oils - Copy.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+ 
+}
+
+.hidden {
+  display: none;
+}
+
+
+.inviteText {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px  black;
+}
+
+.anibobi {
+  margin-top: 35px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: -88px;
+  font-size: 24px;
+  line-height: 2.9;
+  letter-spacing: 1.5px;
+  text-shadow: 1.5px 1px  black;
+  font-weight: bold;
+}
+
+.detailsText {
+  text-align: center;
+  margin-top: -71px;
+  font-size: 25px;
+  line-height: 2.9;
+  font-weight: bold;
+  text-shadow: 1px 1px  black;
+}
+
+.btnSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.backgroundParent {
+  background-color: rgba(0, 0, 0, 0.014);
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.navBtn {
+  box-sizing: border-box;
+  border-radius: 60%;
+  border-style: none;
+  padding: 25px;
+  background:none;
+  width: 30%;   
+  margin: 5px;
+}
+
+script {
+  display: none;
+}
+

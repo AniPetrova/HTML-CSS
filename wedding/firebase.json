@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "petya-and-deyan-wedding-day",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
